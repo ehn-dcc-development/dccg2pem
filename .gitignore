@@ -1,0 +1,13 @@
+# Build stuff
+dist/
+
+# OSX metadata
+.DS_Store
+
+# Compiler output
+bin/
+obj/
+
+# IDE: Jetbrains
+.idea/
+
