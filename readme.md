@@ -24,14 +24,14 @@ Then you can run it by moving to the output directory:
 
 and running:
 
-	./dgcg2pem your-trust-list.json ./path/to/directory/where/files/will/be/saved
+	./dccg2pem your-trust-list.json ./path/to/directory/where/files/will/be/saved
 
 The project includes the trustlist from acceptance dated 2022-11-28. This is copied into the `dist` directory by the `publish` command.
 
 To use the provided trustlist:
 
-	./dgcg2pem acc.json ./output
+	./dccg2pem acc.json ./output
 
 Windows user? then you don't need to include the `./` and can run it like this:
 
-	dgcg2pem acc.json ./path/to/directory/where/files/will/be/saved
+	dccg2pem acc.json ./path/to/directory/where/files/will/be/saved
